@@ -1671,3 +1671,56 @@
     display: none;
   }
 }
+
+
+.hero-verse {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .hero-verse {
+    display: block;
+    max-width: 320px;
+    margin: 18px auto 0;
+    padding: 0 15px;
+    text-align: center;
+  }
+
+  .hero-verse p {
+    font-family: 'Playfair Display', serif;
+    font-size: 15px;
+    line-height: 1.8;
+    font-style: italic;
+    color: #550505;
+    margin: 0;
+  }
+
+  .hero-verse span {
+    display: block;
+    margin-top: 10px;
+    font-size: 12px;
+    letter-spacing: 1.5px;
+    color: #8b6b55;
+  }
+}
+
+
+@media (max-width: 768px) {
+
+  /* Separa o cabeçalho do conteúdo principal */
+  .hero {
+    padding-top: 100px !important;
+  }
+
+  /* Evita que o título fique muito próximo do logo */
+  .hero-content {
+    margin-top: 20px !important;
+  }
+
+  /* Mantém o título organizado */
+  .hero-title {
+    margin-top: 0 !important;
+    line-height: 1.15 !important;
+  }
+
+}
